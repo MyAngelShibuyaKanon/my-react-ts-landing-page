@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@keyframes topSpanOnClick {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+  100%{
+    transform: translateY(8px) rotate(45deg);
+  }
+}
+
+@keyframes cenSpanOnClick {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes botSpanOnClick {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100%{
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+@keyframes topSpanOffClick {
+  0% {
+    transform: translateY(8px) rotate(45deg);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+@keyframes cenSpanOffClick {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes botSpanOffClick {
+  0% {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
