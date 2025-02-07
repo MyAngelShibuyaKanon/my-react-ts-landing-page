@@ -14,7 +14,6 @@ export default function NavBar(): JSX.Element {
 
     const checkWidth = () => {
       if (window.innerWidth < 1024 && isMobileRef.current === false) {
-        console.log("re-rendered to mobile")
         setMobile(true);
         isMobileRef.current = true;
       }
@@ -89,7 +88,6 @@ function NavMobile({ isActive, prevState, setActive }: { isActive: boolean, prev
         <div className="-z-1" >
           <MobileNavMenu isActive={isActive} onAnimationEnd={() => {
             setNavMenu(false)
-            console.log(navMenu, isActive)
           }
           } />
         </div>
@@ -102,7 +100,6 @@ function NavMobile({ isActive, prevState, setActive }: { isActive: boolean, prev
 }
 
 function Hamburger({ onClick, prevState, isActive }: { onClick: React.MouseEventHandler, prevState: React.RefObject<boolean>, isActive: boolean }): JSX.Element {
-  console.log(prevState, isActive)
 
   if (prevState.current === isActive) {
     return (
@@ -113,7 +110,6 @@ function Hamburger({ onClick, prevState, isActive }: { onClick: React.MouseEvent
       </button>
     )
   } else if (isActive === true) {
-    console.log(isActive)
     return (
       <button onClick={onClick} className="inline-block w-8 h-8 my-3" >
         <div className="h-1 my-1 w-full bg-black animate-[topSpanOnClick_.5s_forwards]"></div>
