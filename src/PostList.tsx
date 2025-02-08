@@ -1,4 +1,4 @@
-import { useState, Children, useRef, useEffect, RefObject} from "react"
+import { Children, useRef, useEffect} from "react"
 
 export function PostList({ children }: { children: React.ReactNode }): React.ReactNode {
   const size = Children.count(children);
