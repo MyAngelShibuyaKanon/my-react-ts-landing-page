@@ -13,9 +13,9 @@ function App() {
         <Hero />
       </div>
       <PostList>
-        <Post />
-        <Post />
-        <Post />
+        <Post title="Test"/>
+        <Post title="Test 1"/>
+        <Post title="Test 2"/>
       </PostList>
       <ContentList />
       <Footer />

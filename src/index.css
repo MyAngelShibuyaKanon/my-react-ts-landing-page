@@ -1,1 +1,42 @@
 @import "tailwindcss";
+@tailwind utilities;
+
+@media (max-width:1080px) {
+    html {
+        font-size:12px
+    }
+}
+
+html {
+    font-size:16px
+}
+
+@media (min-width:1920px) {
+    html {
+        font-size:16px
+    }
+}
+
+@media (min-width:2560px) {
+    html {
+        font-size:22px
+    }
+}
+
+@media (min-width:3840px) {
+    html {
+        font-size:32px
+    }
+}
+
+@layer utilities {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+   /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+  }
+}
