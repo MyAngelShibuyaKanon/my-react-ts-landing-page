@@ -1,3 +1,5 @@
+import './index.css'
+
 export function ContentList() {
   return (
     <div className='py-[2rem]'>
@@ -22,3 +24,5 @@ export function Content() {
     </div>
   )
 }
+
+

@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@media (prefers-color-scheme: dark) {
+    :root {
+      @apply bg-gray-900 text-white
+    }
+   
+  }
+  
+
 @media (max-width:1080px) {
     html {
         font-size:12px
