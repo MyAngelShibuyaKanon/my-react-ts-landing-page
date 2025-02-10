@@ -2,7 +2,7 @@ import './index.css'
 
 export function DetailedBlog() {
   return (
-    <div className='flex flex-col pt-13 mx-[15vw] text-lg my-16 mb-8 gap-8'>
+    <div className='flex flex-col pt-13 mx-[15vw] max-lg:mx-[5vw] text-lg my-16 mb-8 gap-8'>
       <h1 className='text-5xl font-bold'>
         Sample Title My Skbidi
       </h1>
@@ -18,13 +18,13 @@ export function DetailedBlog() {
 
 export function DetailedPost() {
   return (
-    <div className='flex flex-col pt-13 mx-[15vw] text-lg my-16 mb-8 gap-8'>
+    <div className='flex flex-col pt-13 mx-[15vw] max-lg:mx-[5vw] text-lg my-16 mb-8 gap-8'>
       <h1 className='text-5xl font-bold'>
         Sample Title My Skbidi
       </h1>
       <p>2020 | Skibidi Rizzmass</p>
       <p>Quam, quam, non adipiscing pellentesque feugiat sed laoreet rhoncus nunc. Elementum, varius non laoreet, fermentum eget non maximus euismod bibendum.</p>
-      <img src='kita.webp' className='w-full h-[60vh] content[60vw] object-cover' />
+      <img src='kita.webp' className='w-full h-[60vh] max-lg:h-[30vh] object-cover' />
       <h1 className='text-2xl'>Skibidi Topic 1</h1>
       <p>Elit magna dignissim venenatis, convallis montes laoreet urna dapibus feugiat. Libero nulla velit amet, lorem nulla, mi feugiat euismod amet. Dignissim vitae, enim quis habitasse ac, arcu consequat pellentesque nunc. Praesent sit vestibulum etiam id sed sed dis, at quisque. Blandit posuere, in maximus parturient, vivamus nec porta tempor in. Tortor vulputate pulvinar sed penatibus ipsum nulla et nibh morbi. Aliquet ligula semper eget cras, integer fermentum massa, fermentum condimentum. Vitae interdum nam tempor proin tristique metus nulla iaculis, consectetur. Risus ipsum enim donec sagittis semper sed magna posuere consectetur. Id eleifend dignissim ultricies efficitur, at bibendum et interdum, at.</p>
       <h1 className='text-2xl'>Skibidi Topic 2</h1>
