@@ -158,9 +158,9 @@ function MobileNavMenu({ isActive, isFirstRenderRef, onClick }: { isActive: bool
     return (
       <div className=" w-full absolute animate-[navMenuOnActive_.5s] ">
         <ul className="">
-          <li className="flex h-13 bg-white dark:bg-gray-950 text-black w-full text-center hover:bg-gray-200 dark:hover:bg-gray-900" > <Link linkUrl="Works" onClick={onClick}>Works</Link></li>
-          <li className="flex h-13 bg-white dark:bg-gray-950 text-black w-full text-center hover:bg-gray-200 dark:hover:bg-gray-900" > <Link linkUrl="Blogs" onClick={onClick}>Blogs</Link></li>
-          <li className="flex h-13 bg-white dark:bg-gray-950 text-black w-full text-center hover:bg-gray-200 dark:hover:bg-gray-900" > <Link linkUrl="/" onClick={onClick}>About Me</Link></li>
+          <li className="flex h-13 bg-white dark:bg-gray-950 text-black w-full text-center active:bg-gray-200 dark:active:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-900" > <Link linkUrl="Works" onClick={onClick}>Works</Link></li>
+          <li className="flex h-13 bg-white dark:bg-gray-950 text-black w-full text-center active:bg-gray-200 dark:active:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-900" > <Link linkUrl="Blogs" onClick={onClick}>Blogs</Link></li>
+          <li className="flex h-13 bg-white dark:bg-gray-950 text-black w-full text-center active:bg-gray-200 dark:active:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-900" > <Link linkUrl="/" onClick={onClick}>About Me</Link></li>
         </ul>
       </div>
     )
@@ -170,9 +170,9 @@ function MobileNavMenu({ isActive, isFirstRenderRef, onClick }: { isActive: bool
     return (
       <div className="w-full absolute animate-[navMenuOffActive_.5s_forwards] ">
         <ul>
-          <li className="p-3 bg-white dark:bg-gray-950 text-black w-full text-center hover:bg-gray-200 dark:hover:bg-gray-900" > <Link linkUrl="Works" onClick={onClick}>Works</Link></li>
-          <li className="p-3 bg-white dark:bg-gray-950 text-black w-full text-center hover:bg-gray-200 dark:hover:bg-gray-900" > <Link linkUrl="Blogs" onClick={onClick}>Blogs</Link></li>
-          <li className="p-3 bg-white dark:bg-gray-950 text-black w-full text-center hover:bg-gray-200 dark:hover:bg-gray-900" > <Link linkUrl="/" onClick={onClick}>About Me</Link></li>
+          <li className="p-3 bg-white dark:bg-gray-950 text-black w-full text-center active:bg-gray-200 dark:active:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-900" > <Link linkUrl="Works" onClick={onClick}>Works</Link></li>
+          <li className="p-3 bg-white dark:bg-gray-950 text-black w-full text-center active:bg-gray-200 dark:active:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-900" > <Link linkUrl="Blogs" onClick={onClick}>Blogs</Link></li>
+          <li className="p-3 bg-white dark:bg-gray-950 text-black w-full text-center active:bg-gray-200 dark:active:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-900" > <Link linkUrl="/" onClick={onClick}>About Me</Link></li>
         </ul>
       </div>
     )
