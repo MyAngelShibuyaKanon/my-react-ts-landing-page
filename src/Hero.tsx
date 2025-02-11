@@ -1,7 +1,7 @@
 
 export default function Hero() {
   return (
-    <div className="flex flex-row shrink-0 top-0 gap-x-10 gap-y-10 px-[10vw] h-svh items-center 
+    <div className="flex flex-row shrink-0 top-0 gap-x-10 gap-y-10 px-[10vw] min-h-svh py-13 items-center 
       max-lg:flex-col-reverse max-lg:justify-center" >
       <div className="flex flex-col gap-5 max-lg:text-center">
         <div className="font-bold text-5xl">Hello, I am Sigma!</div>
